@@ -5,6 +5,11 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 
+Named Entity Recognition (NER) is an important Natural Language Processing (NLP) task that identifies and classifies named entities such as persons, organizations, locations, dates, and other entities in a given text. Traditional rule-based methods may struggle to understand the context of words and handle variations in natural language.
+
+The problem is to develop a deep learning model using a Bidirectional LSTM (BiLSTM) network to automatically recognize and classify named entities in text. The model takes sentences as input, converts words into numerical representations, processes the sequences using LSTM to capture contextual information from both directions, and assigns an appropriate entity tag to each word.
+
+The model is trained and evaluated using the NER dataset, with the objective of accurately predicting the entity label for each word in a sentence.
 
 ## DESIGN STEPS
 ### STEP 1:
